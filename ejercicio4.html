@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 4 | AnimEc</title>
+    <link rel="stylesheet" href="css/root.css" />
+  </head>
+
+  <header>
+    <div class="logo logo-main">AnimEc</div>
+    <div class="nav">
+      <div class="wrap">
+        <div class="logo logo-small">AnimEc</div>
+        <nav>
+          <ul class="menu-horizontal">
+            <li><a href="index.html">Inicio</a></li>
+            <li>
+              <a href="">Ejercicios</a>
+              <ul class="menu-vertical">
+                <li><a href="ejercicio1.php">Ejercicio 1</a></li>
+                <li><a href="ejercicio2.html">Ejercicio 2</a></li>
+                <li><a href="ejercicio3.html">Ejercicio 3</a></li>
+                <li><a href="ejercicio4.html">Ejercicio 4</a></li>
+                <li><a href="ejercicio6.html">Ejercicio 6</a></li>
+                <li><a href="ejercicio7.html">Ejercicio 7</a></li>
+                <li><a href="ejercicio8.html">Ejercicio 8</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://youtu.be/Fve_lHIPa-I" target="_blank">Música</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="js/script.js"></script>
+  </header>
+
+  <body>
+    <div class="main">
+      <h1>Ejercicio 4</h1>
+
+      <hr />
+      <h2
+        style="
+          color: white;
+          text-align: center;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+            sans-serif;
+          margin-top: 2%;
+          margin-bottom: 3%;
+        "
+      >
+        Múltiplos del número ingresado
+      </h2>
+      <form method="post" action="tabla_multiplicar.php">
+        <p>
+          <label for="numero">Ingrese un número:</label><br />
+          <input
+            type="number"
+            name="numero"
+            id="numero"
+            required
+            style="padding: 1%; font-size: 15px; margin-top: 2%; text-align: center;"
+          />
+          <br />
+          <input
+            type="submit"
+            value="Generar tabla"
+            style="
+              padding: 1%;
+              margin-top: 5%;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                sans-serif;
+              font-size: 20px;
+              background-color: #456192;
+              color: white;
+            "
+          />
+        </p>
+      </form>
+
+      <br />
+    </div>
+  </body>
+
+  <footer>
+    <an> Copyright © 2023 | AnimEc. </an>
+  </footer>
+</html>

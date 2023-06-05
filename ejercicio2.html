@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <title>Ejercicio 2 | AnimEc</title>
+      <link rel="stylesheet" href="css/root.css" />
+    </head>
+  </head>
+  <header>
+    <div class="logo logo-main">AnimEc</div>
+    <div class="nav">
+      <div class="wrap">
+        <div class="logo logo-small">AnimEc</div>
+        <nav>
+          <ul class="menu-horizontal">
+            <li><a href="index.html">Inicio</a></li>
+            <li>
+              <a href="">Ejercicios</a>
+              <ul class="menu-vertical">
+                <li><a href="ejercicio1.php">Ejercicio 1</a></li>
+                <li><a href="ejercicio2.html">Ejercicio 2</a></li>
+                <li><a href="ejercicio3.html">Ejercicio 3</a></li>
+                <li><a href="ejercicio4.html">Ejercicio 4</a></li>
+                <li><a href="ejercicio6.html">Ejercicio 6</a></li>
+                <li><a href="ejercicio7.html">Ejercicio 7</a></li>
+                <li><a href="ejercicio8.html">Ejercicio 8</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://youtu.be/Fve_lHIPa-I" target="_blank">Música</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="js/script.js"></script>
+  </header>
+
+  <body>
+    <div class="main">
+      <h1>Ejercicio 2</h1>
+
+      <hr />
+
+      <h2
+        style="
+          color: white;
+          text-align: center;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+            sans-serif;
+          padding-top: 2%;
+        "
+      >
+        Formulario de contacto
+      </h2>
+      <form action="procesar.php" method="post">
+        <p>
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            required
+            style="margin-bottom: 2%; padding: 0.5%; font-size: 15px;"
+          />
+          <br />
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required style="margin-bottom: 2%; padding: 0.5%; font-size: 15px;"/>
+          <br />
+
+          <label for="mensaje">Mensaje:</label><br />
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            rows="4"
+            cols="50"
+            required
+            style="margin-top: 1%; padding: 0.5%; font-size: 15px;"
+          ></textarea
+          ><br /><br />
+
+          <input
+            type="submit"
+            value="Enviar"
+            style="
+              font-size: 20px;
+              font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                sans-serif;
+              background-color: #456192;
+              padding: 1%;
+              color: white;
+            "
+          />
+        </p>
+      </form>
+
+      <br />
+    </div>
+  </body>
+
+  <footer>
+    <an> Copyright © 2023 | AnimEc. </an>
+  </footer>
+</html>
